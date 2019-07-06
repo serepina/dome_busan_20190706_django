@@ -10,6 +10,6 @@ class BaseModel(models.Model):
         abstract = True
 
 
- class Post(BaseModel):
+class Post(BaseModel):
     title = models.CharField(max_length=100)
     content = models.TextField()
